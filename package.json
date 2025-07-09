@@ -1,0 +1,32 @@
+{
+  "name": "graphhopper",
+  "version": "2025.07.10.01",
+  "description": "A complete TypeScript client for the GraphHopper API, including Routing, Isochrone, Matrix, Map Matching, Optimization, and Geocoding modules.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "geocoding",
+    "latlng",
+    "typescript",
+    "react"
+  ],
+  "author": "GPT-4.1",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/axios": "^0.9.36",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "axios": "^1.10.0"
+  }
+}
